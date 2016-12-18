@@ -10,7 +10,7 @@ namespace FizzBuzz_CS
 
 		public string Get(int number)
 		{
-			return null;
+			return "Fizz";
 		}
 	}
 }
