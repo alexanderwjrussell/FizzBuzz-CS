@@ -2,13 +2,9 @@
 
 namespace FizzBuzz_CS
 {
-	class FizzBuzz
+	public static class FizzBuzz
 	{
-		public FizzBuzz()
-		{
-		}
-
-		public string Get(int number)
+		public static string Get(int number)
 		{
 			if (number % 15 == 0) return "FizzBuzz";
 			if(number % 3 == 0) return "Fizz";
