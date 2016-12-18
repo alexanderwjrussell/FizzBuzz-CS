@@ -1,0 +1,6 @@
+/Users/alexanderwjrussell/Projects/FizzBuzz_CS/FizzBuzz_CS/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/alexanderwjrussell/Projects/FizzBuzz_CS/FizzBuzz_CS/bin/Debug/FizzBuzz_CS.dll.mdb
+/Users/alexanderwjrussell/Projects/FizzBuzz_CS/FizzBuzz_CS/bin/Debug/FizzBuzz_CS.dll
+/Users/alexanderwjrussell/Projects/FizzBuzz_CS/FizzBuzz_CS/obj/Debug/FizzBuzz_CS.dll
+/Users/alexanderwjrussell/Projects/FizzBuzz_CS/FizzBuzz_CS/obj/Debug/FizzBuzz_CS.dll.mdb
+/Users/alexanderwjrussell/Projects/FizzBuzz_CS/FizzBuzz_CS/bin/Debug/nunit.framework.dll
