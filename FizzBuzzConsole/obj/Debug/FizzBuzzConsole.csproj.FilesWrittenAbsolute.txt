@@ -1,0 +1,8 @@
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/bin/Debug/FizzBuzzConsole.exe.mdb
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/bin/Debug/FizzBuzzConsole.exe
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/obj/Debug/FizzBuzzConsole.exe
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/obj/Debug/FizzBuzzConsole.exe.mdb
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/bin/Debug/FizzBuzz_CS.dll
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/bin/Debug/FizzBuzz_CS.dll.mdb
+/Users/alexanderwjrussell/Git/FizzBuzz_CS/FizzBuzzConsole/bin/Debug/nunit.framework.dll
