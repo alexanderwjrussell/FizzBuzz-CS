@@ -6,28 +6,13 @@ namespace FizzBuzz_CS
 	public class FizzBuzzTests
 	{
 
-		[Test]
-		public void Should_ReturnFizz_WhenDivisibleBy3()
+		[TestCase(3, "Fizz")]
+		[TestCase(5, "Buzz")]
+		[TestCase(15, "FizzBuzz")]
+		[TestCase(2, "2")]
+		public void Should_ReturnCorrectValues_ForTestCases(int number, string result)
 		{
-			Assert.That(FizzBuzz.Get(3), Is.EqualTo("Fizz"));
-		}
-
-		[Test]
-		public void Should_ReturnBuzz_WhenDivisibleBy5()
-		{
-			Assert.That(FizzBuzz.Get(5), Is.EqualTo("Buzz"));
-		}
-
-		[Test]
-		public void Should_ReturnFizzBuzz_WhenDivisibleBy15()
-		{
-			Assert.That(FizzBuzz.Get(15), Is.EqualTo("FizzBuzz"));
-		}
-
-		[Test]
-		public void Should_ReturnNumber_WhenNotDivisibleBy3or5or15()
-		{
-			Assert.That(FizzBuzz.Get(2), Is.EqualTo("2"));
+			Assert.That(FizzBuzz.Get(number), Is.EqualTo(result));
 		}
 	}
 }
