@@ -22,5 +22,14 @@ namespace FizzBuzz_CS
 
 			Assert.That(result, Is.EqualTo("Buzz"));
 		}
+
+		[Test]
+		public void Should_ReturnBuzz_WhenDivisibleBy5()
+		{
+			var fizzbuzz = new FizzBuzz();
+			var result = fizzbuzz.Get(15);
+
+			Assert.That(result, Is.EqualTo("FizzBuzz"));
+		}
 	}
 }
