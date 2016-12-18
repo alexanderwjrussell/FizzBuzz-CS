@@ -5,40 +5,37 @@ namespace FizzBuzz_CS
 	[TestFixture]
 	public class FizzBuzzTests
 	{
+
+		FizzBuzz fizzbuzz;
+
+		[SetUp]
+		public void SetUp() 
+		{
+			fizzbuzz = new FizzBuzz();
+		}
+
 		[Test]
 		public void Should_ReturnFizz_WhenDivisibleBy3()
 		{
-			var fizzbuzz = new FizzBuzz();
-			var result = fizzbuzz.Get(3);
-
-			Assert.That(result, Is.EqualTo("Fizz"));
+			Assert.That(fizzbuzz.Get(3), Is.EqualTo("Fizz"));
 		}
 
 		[Test]
 		public void Should_ReturnBuzz_WhenDivisibleBy5()
 		{
-			var fizzbuzz = new FizzBuzz();
-			var result = fizzbuzz.Get(5);
-
-			Assert.That(result, Is.EqualTo("Buzz"));
+			Assert.That(fizzbuzz.Get(5), Is.EqualTo("Buzz"));
 		}
 
 		[Test]
 		public void Should_ReturnFizzBuzz_WhenDivisibleBy15()
 		{
-			var fizzbuzz = new FizzBuzz();
-			var result = fizzbuzz.Get(15);
-
-			Assert.That(result, Is.EqualTo("FizzBuzz"));
+			Assert.That(fizzbuzz.Get(15), Is.EqualTo("FizzBuzz"));
 		}
 
 		[Test]
 		public void Should_ReturnNumber_WhenNotDivisibleBy3or5or15()
 		{
-			var fizzbuzz = new FizzBuzz();
-			var result = fizzbuzz.Get(2);
-
-			Assert.That(result, Is.EqualTo("2"));
+			Assert.That(fizzbuzz.Get(2), Is.EqualTo("2"));
 		}
 	}
 }
