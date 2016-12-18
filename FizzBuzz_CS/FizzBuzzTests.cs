@@ -38,7 +38,7 @@ namespace FizzBuzz_CS
 			var fizzbuzz = new FizzBuzz();
 			var result = fizzbuzz.Get(2);
 
-			Assert.That(result, Is.EqualTo(2));
+			Assert.That(result, Is.EqualTo("2"));
 		}
 	}
 }
